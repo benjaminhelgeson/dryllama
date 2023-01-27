@@ -6,10 +6,11 @@ const ImageDisplay = ({
 	href="",
 	...rest
 }) => {
+	let awsSrc = "https://dryllamaimages.s3.amazonaws.com/" + src;
 	return (
 		<>
 	      <a href={href}>
-	        <img alt={alt} src={src} className={className} />
+	        <img alt={alt} src={awsSrc} className={className} />
 	      </a>			
 		</>
 	);

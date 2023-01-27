@@ -23,9 +23,6 @@ export default function HomeScreen() {
         <div>
           <a href="/covers">Street Covers</a>
         </div>    
-        <div>
-          <a href="/grafitti">Grafitti</a>
-        </div>    
 
         <SubtitleDisplay 
           title="National Parks System"
