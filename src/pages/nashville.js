@@ -15,13 +15,18 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import { ImageDisplay } from '../componets/imageDisplay';
 import { TitleDisplay } from '../componets/titleDisplay';
+import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
 export default function NashvilleScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
-	    <TitleDisplay
-	      title="Nashville, Tennessee"
+	    <TitleDisplay goTo="/"
+	      title="Dry Llama"
 	    ></TitleDisplay>
+	    
+	    <SubtitleDisplay
+	      title="Nashville, Tennessee"
+	    ></SubtitleDisplay>
 
 	    <LightGallery
 	      speed={500}

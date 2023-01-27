@@ -15,13 +15,22 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import { ImageDisplay } from '../componets/imageDisplay';
 import { TitleDisplay } from '../componets/titleDisplay';
+import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
 export default function GoldenCircleScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
-	    <TitleDisplay
-	      title="Golden Circle, Iceland"
+	    <TitleDisplay goTo="/"
+	      title="Dry Llama"
 	    ></TitleDisplay>
+	    
+	    <TitleDisplay goTo="/"
+	      title="Dry Llama"
+	    ></TitleDisplay>
+
+	    <SubtitleDisplay
+	      subtitle="Golden Circle, Iceland"
+	    ></SubtitleDisplay>
 
 	    <LightGallery
 	      speed={500}

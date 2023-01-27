@@ -1,13 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import { TitleDisplay } from '../componets/titleDisplay';
+import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
 export default function AboutScreen() {
 	return (		
 	  	<div className="px-10 mt-2 bg-black text-white">
-		    <TitleDisplay
-		      title="About Dry Llama"
-	    	></TitleDisplay>
+		    <TitleDisplay goTo="/"
+		      title="Dry Llama"
+		    ></TitleDisplay>
+
+		    <SubtitleDisplay
+		      subtitle="About Dry Llama"
+		    ></SubtitleDisplay>
+		    
 	    	<div className="w-3/6">
 	    		<p className="my-2">My name is Ben. I started this site just to warehouse the pictures I have taken. 
 	    		Dry llama is a collection of photographs I have taken over the last decade or so while traveling. 

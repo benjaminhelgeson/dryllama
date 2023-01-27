@@ -9,7 +9,7 @@ export default function HomeScreen() {
 	return (
 		
       <div className="px-10 mt-2 bg-black text-white">
-        <TitleDisplay
+        <TitleDisplay goTo="/"
           title="Dry Llama"
         ></TitleDisplay>
 

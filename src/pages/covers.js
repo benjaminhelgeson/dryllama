@@ -14,13 +14,18 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import { ImageDisplay } from '../componets/imageDisplay';
 import { TitleDisplay } from '../componets/titleDisplay';
+import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
 export default function CoversScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
-	    <TitleDisplay
-	      title="Street Covers"
+	    <TitleDisplay goTo="/"
+	      title="Dry Llama"
 	    ></TitleDisplay>
+	    
+	    <SubtitleDisplay
+	      title="Street Covers"
+	    ></SubtitleDisplay>
 
 	    <LightGallery
 	      speed={500}

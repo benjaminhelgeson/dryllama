@@ -15,13 +15,18 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import { ImageDisplay } from '../componets/imageDisplay';
 import { TitleDisplay } from '../componets/titleDisplay';
+import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
 export default function FussenScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
-	    <TitleDisplay
-	      title="Fussen, Germany"
+	    <TitleDisplay goTo="/"
+	      title="Dry Llama"
 	    ></TitleDisplay>
+	    
+	    <SubtitleDisplay
+	      title="Fussen, Germany"
+	    ></SubtitleDisplay>
 
 	    <LightGallery
 	      speed={500}
