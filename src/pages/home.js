@@ -66,10 +66,7 @@ export default function HomeScreen() {
         </div>  
         <div>
           <a href="/cadillacranch">Cadillac Ranch, Tx</a>
-        </div>   
-        <div>
-          <a href="/california">Coastal California, Ca</a>
-        </div>   
+        </div>  
         <div>
           <a href="/dallas">Dallas, Tx</a>
         </div>    

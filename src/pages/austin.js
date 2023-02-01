@@ -25,7 +25,7 @@ export default function AustinScreen() {
 	    ></TitleDisplay>
 
 	    <SubtitleDisplay
-	      subtitle="Austin, Texas"
+	      title="Austin, Texas"
 	    ></SubtitleDisplay>
 
 	    <LightGallery

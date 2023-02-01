@@ -20,9 +20,9 @@ import { SubtitleDisplay } from '../componets/subtitleDisplay';
 export default function BerlinScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
-	    <SubtitleDisplay goTo="/"
+	    <TitleDisplay goTo="/"
 	      title="Dry Llama"
-	    ></SubtitleDisplay>
+	    ></TitleDisplay>
 	    
 	    <SubtitleDisplay
 	      title="Berlin, Germany"

@@ -25,7 +25,7 @@ export default function RushmoreScreen() {
 	    ></TitleDisplay>
 	    
 	    <SubtitleDisplay
-	      title="South Dakota"
+	      title="Mount Rushmore National Monument"
 	    ></SubtitleDisplay>
 
 	    <LightGallery

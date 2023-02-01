@@ -25,7 +25,7 @@ export default function BolivarScreen() {
 	    ></TitleDisplay>
 	    
 	    <SubtitleDisplay
-	      title="Bolivar Penninsula"
+	      title="Bolivar Penninsula, Texas"
 	    ></SubtitleDisplay>
 
 	    <LightGallery

@@ -25,7 +25,7 @@ export default function PilsenScreen() {
 	    ></TitleDisplay>
 	    
 	    <SubtitleDisplay
-	      title="Pilsen, Germany"
+	      title="Pilsen, Czechia"
 	    ></SubtitleDisplay>
 
 	    <LightGallery

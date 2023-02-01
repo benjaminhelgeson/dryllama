@@ -24,9 +24,9 @@ export default function BayAreaScreen() {
 	      title="Dry Llama"
 	    ></TitleDisplay>
 	    
-	    <subtitleDisplay
+	    <SubtitleDisplay
 	      title="Bay Area, California"
-	    ></subtitleDisplay>
+	    ></SubtitleDisplay>
 
 	    <LightGallery
 	      speed={500}

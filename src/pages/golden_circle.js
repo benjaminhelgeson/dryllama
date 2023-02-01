@@ -23,10 +23,6 @@ export default function GoldenCircleScreen() {
 	    <TitleDisplay goTo="/"
 	      title="Dry Llama"
 	    ></TitleDisplay>
-	    
-	    <TitleDisplay goTo="/"
-	      title="Dry Llama"
-	    ></TitleDisplay>
 
 	    <SubtitleDisplay
 	      subtitle="Golden Circle, Iceland"

@@ -25,7 +25,7 @@ export default function MidCalScreen() {
 	    ></TitleDisplay>
 	    
 	    <SubtitleDisplay
-	      title="Mid-California"
+	      title="Mid-Coastal California"
 	    ></SubtitleDisplay>
 
 	    <LightGallery

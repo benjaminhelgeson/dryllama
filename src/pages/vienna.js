@@ -25,7 +25,7 @@ export default function ViennaScreen() {
 	    ></TitleDisplay>
 	    
 	    <SubtitleDisplay
-	      title="Vienna Austria"
+	      title="Vienna, Austria"
 	    ></SubtitleDisplay>
 
 	    <LightGallery
