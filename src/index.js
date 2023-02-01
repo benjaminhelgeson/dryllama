@@ -12,7 +12,7 @@ import BerlinScreen from "./pages/berlin";
 import BigBendScreen from "./pages/big_bend";
 import BolivarScreen from "./pages/bolivar";
 import BratislavaScreen from "./pages/bratislava";
-import BruggesScreen from "./pages/brugges";
+import BrugesScreen from "./pages/bruges";
 import CadillacRanchScreen from "./pages/cadillac_ranch";
 import CaliforniaScreen from "./pages/california";
 import ChicagoScreen from "./pages/chicago";
@@ -76,7 +76,7 @@ export default function App() {
         <Route path="bigbend" element={<BigBendScreen />} />
         <Route path="bolivar" element={<BolivarScreen />} /> 
         <Route path="bratislava" element={<BratislavaScreen />} />
-        <Route path="brugges" element={<BruggesScreen />} />
+        <Route path="bruges" element={<BrugesScreen />} />
         <Route path="cadillacranch" element={<CadillacRanchScreen />} />
         <Route path="chicago" element={<ChicagoScreen />} />
         <Route path="covers" element={<CoversScreen />} />
