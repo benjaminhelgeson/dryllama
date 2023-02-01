@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import LightGallery from 'lightgallery/react';
-import myData from '../data/brugges.json';
+import myData from '../data/bruges.json';
 import _ from 'lodash';
 
 // import styles
@@ -17,7 +17,7 @@ import { ImageDisplay } from '../componets/imageDisplay';
 import { TitleDisplay } from '../componets/titleDisplay';
 import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
-export default function BruggesScreen() {
+export default function BrugesScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
 	    <TitleDisplay goTo="/"
@@ -25,7 +25,7 @@ export default function BruggesScreen() {
 	    ></TitleDisplay>
 
 	    <SubtitleDisplay
-	      title="Brugges, Belgium"
+	      title="Bruges, Belgium"
 	    ></SubtitleDisplay>
 
 	    <LightGallery
@@ -36,7 +36,7 @@ export default function BruggesScreen() {
 	      download={false}
 	      getCaptionFromTitleOrAlt={true}
 	    > 
-			{_.map(myData?.brugges, data => {
+			{_.map(myData?.bruges, data => {
 				return(
 					<ImageDisplay 
 			    		href={data[0].href} 
