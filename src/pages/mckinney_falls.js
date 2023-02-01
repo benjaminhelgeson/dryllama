@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import LightGallery from 'lightgallery/react';
-import myData from '../data/cadillac_ranch.json';
+import myData from '../data/mckinney_falls.json';
 import _ from 'lodash';
 
 // import styles
@@ -17,15 +17,15 @@ import { ImageDisplay } from '../componets/imageDisplay';
 import { TitleDisplay } from '../componets/titleDisplay';
 import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
-export default function CadillacRanchScreen() {
+export default function McKinneyFallsScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
 	    <TitleDisplay goTo="/"
 	      title="Dry Llama"
 	    ></TitleDisplay>
-	    
+
 	    <SubtitleDisplay
-	      title="Cadillac Ranch, Texas"
+	      title="McKinney Falls, Texas"
 	    ></SubtitleDisplay>
 
 	    <LightGallery
@@ -36,12 +36,13 @@ export default function CadillacRanchScreen() {
 	      download={false}
 	      getCaptionFromTitleOrAlt={true}
 	    > 
-			{_.map(myData?.cadillac_ranch, data => {
+			{_.map(myData?.mckinney_falls, data => {
 				return(
 					<ImageDisplay 
 			    		href={data[0].href} 
 			    		src={data[0].src}
 			    		alt={data[0].alt}
+			    		height="300px"
 					></ImageDisplay>
 				);
 			})}

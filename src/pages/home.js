@@ -68,6 +68,9 @@ export default function HomeScreen() {
           <a href="/cadillacranch">Cadillac Ranch, Tx</a>
         </div>  
         <div>
+          <a href="/chicago">Chicago, Il</a>
+        </div>  
+        <div>
           <a href="/dallas">Dallas, Tx</a>
         </div>    
         <div>
@@ -88,6 +91,9 @@ export default function HomeScreen() {
         <div>
           <a href="/mardigras">Mardi Gras</a>
         </div>    
+        <div>
+          <a href="/mckinneyfalls">McKinney Falls, Tx</a>
+        </div>  
         <div>
           <a href="/miami">Miami, Fl</a>
         </div>  
@@ -123,7 +129,13 @@ export default function HomeScreen() {
           title="Abroad"
         ></SubtitleDisplay>
         <div>
+          <a href="/amsterdam">Amsterdam, Netherlands</a>
+        </div>   
+        <div>
           <a href="/barcelona">Barcelona, Spain</a>
+        </div>   
+        <div>
+          <a href="/banos">Banos, Ecuador</a>
         </div>   
         <div>
           <a href="/berlin">Berlin, Germany</a>
@@ -132,10 +144,19 @@ export default function HomeScreen() {
           <a href="/bratislava">Bratislava, Slovakia</a>
         </div>   
         <div>
+          <a href="/brugges">Brugges, Belgium</a>
+        </div>   
+        <div>
           <a href="/fussen">Fussen, Germany</a>
         </div>     
         <div>
+          <a href="/galapagos">Galapagos Islands, Ecuador</a>
+        </div>     
+        <div>
           <a href="/goldencircle">Golden Circle, Iceland</a>
+        </div>    
+        <div>
+          <a href="/havana">Havana, Cuba</a>
         </div> 
         <div>
           <a href="/london">London, England</a>
@@ -143,6 +164,9 @@ export default function HomeScreen() {
         <div>
           <a href="/munich">Munich, Germany</a>
         </div>    
+        <div>
+          <a href="/paris">Paris, France</a>
+        </div>     
         <div>
           <a href="/pilsen">Pilsen, Czechia</a>
         </div>    
@@ -164,7 +188,9 @@ export default function HomeScreen() {
         <div>
           <a href="/vienna">Vienna, Austria</a>
         </div>    
-
+        <div>
+          <a href="/zaragoza">Zaragoza, Spain</a>
+        </div>    
       </div>
 	);
 }
