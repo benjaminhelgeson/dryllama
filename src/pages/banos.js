@@ -25,7 +25,7 @@ export default function BanosScreen() {
 	    ></TitleDisplay>
 
 	    <SubtitleDisplay
-	      title="Banos, Ecuador"
+	      title="Ba&#241;os, Ecuador"
 	    ></SubtitleDisplay>
 
 	    <LightGallery

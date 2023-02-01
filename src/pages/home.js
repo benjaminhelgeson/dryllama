@@ -135,7 +135,7 @@ export default function HomeScreen() {
           <a href="/barcelona">Barcelona, Spain</a>
         </div>   
         <div>
-          <a href="/banos">Banos, Ecuador</a>
+          <a href="/banos">Ba&#241;os, Ecuador</a>
         </div>   
         <div>
           <a href="/berlin">Berlin, Germany</a>
