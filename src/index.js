@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeScreen from "./pages/home";
 import AboutScreen from "./pages/about";
 import AmsterdamScreen from "./pages/amsterdam";
+import AnchorageScreen from "./pages/anchorage";
 import AustinScreen from "./pages/austin";
 import BarcelonaScreen from "./pages/barcelona";
 import BanosScreen from "./pages/banos";
@@ -68,6 +69,7 @@ export default function App() {
         <Route index element={<HomeScreen />} />
         <Route path="about" element={<AboutScreen />} />
         <Route path="amsterdam" element={<AmsterdamScreen />} />
+        <Route path="anchorage" element={<AnchorageScreen />} />
         <Route path="austin" element={<AustinScreen />} />
         <Route path="banos" element={<BanosScreen />} />
         <Route path="barcelona" element={<BarcelonaScreen />} />

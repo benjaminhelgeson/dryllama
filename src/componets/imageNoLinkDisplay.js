@@ -1,23 +1,19 @@
 	
-const ImageDisplay = ({ 
+const ImageNoLinkDisplay = ({ 
 	alt="",
 	src="",
-	className='inline-block h-48 p-1',
-	href="",
+	className='inline-block p-1',
 	...rest
 }) => {
 	let awsSrc = "https://dryllamaimages.s3.amazonaws.com/" + src;
-	let hrefSrc = "https://dryllamaimages.s3.amazonaws.com/" + href;
 
 	return (
 		<>
-	      <a href={hrefSrc}>
 	        <img alt={alt} src={awsSrc} className={className} />
-		  </a>		    	
 		</>
 	);
 }
 
 export {
-	ImageDisplay
+	ImageNoLinkDisplay
 }

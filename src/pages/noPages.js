@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 import { TitleDisplay } from '../componets/titleDisplay';
 import { SubtitleDisplay } from '../componets/subtitleDisplay';
+import { ImageNoLinkDisplay } from '../componets/imageNoLinkDisplay';
 
 export default function NoPagesScreen() {
 
@@ -17,7 +18,10 @@ export default function NoPagesScreen() {
           title="There is nothing for you here."
         ></SubtitleDisplay>
         <div>
-          <img src="img/mardi_gras/IMG_3434.JPEG" alt="There is nothing for you here."></img>
+          <ImageNoLinkDisplay 
+              src="img/mardi_gras/IMG_3434.JPEG"
+              alt="There is nothing for you here."
+          ></ImageNoLinkDisplay>
         </div>
       </div>
 	);
