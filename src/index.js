@@ -11,6 +11,7 @@ import BanosScreen from "./pages/banos";
 import BayAreaScreen from "./pages/bay_area";
 import BerlinScreen from "./pages/berlin";
 import BigBendScreen from "./pages/big_bend";
+import BogotaScreen from "./pages/bogota";
 import BolivarScreen from "./pages/bolivar";
 import BratislavaScreen from "./pages/bratislava";
 import BrugesScreen from "./pages/bruges";
@@ -76,6 +77,7 @@ export default function App() {
         <Route path="bayarea" element={<BayAreaScreen />} />
         <Route path="berlin" element={<BerlinScreen />} />       
         <Route path="bigbend" element={<BigBendScreen />} />
+        <Route path="bogota" element={<BogotaScreen />} /> 
         <Route path="bolivar" element={<BolivarScreen />} /> 
         <Route path="bratislava" element={<BratislavaScreen />} />
         <Route path="bruges" element={<BrugesScreen />} />
