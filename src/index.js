@@ -55,6 +55,7 @@ import RmnpScreen from "./pages/rmnp";
 import RockyPointScreen from "./pages/rocky_point";
 import RushmoreScreen from "./pages/rushmore";
 import SalzburgScreen from "./pages/salzburg";
+import SantiagoScreen from "./pages/santiago";
 import SeattleScreen from "./pages/seattle";
 import ViennaScreen from "./pages/vienna";
 import WestTexasScreen from "./pages/west_texas";
@@ -120,6 +121,7 @@ export default function App() {
         <Route path="rockypoint" element={<RockyPointScreen />} />
         <Route path="rushmore" element={<RushmoreScreen />} />
         <Route path="salzburg" element={<SalzburgScreen />} />
+        <Route path="santiago" element={<SantiagoScreen />} />
         <Route path="seattle" element={<SeattleScreen />} />
         <Route path="vienna" element={<ViennaScreen />} />
         <Route path="westtexas" element={<WestTexasScreen />} />

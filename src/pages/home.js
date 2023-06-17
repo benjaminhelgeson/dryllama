@@ -15,7 +15,7 @@ export default function HomeScreen() {
 
         <div>
           <a href="/about">About Dry Llama</a>
-        </div>   
+        </div>
 
         <SubtitleDisplay 
           title="Street Art"
@@ -191,6 +191,9 @@ export default function HomeScreen() {
         <div>
           <a href="/salzburg">Salzburg, Austria</a>
         </div>    
+        <div>
+          <a href="/santiago">Santiago, Chile</a>
+        </div>   
         <div>
           <a href="/vienna">Vienna, Austria</a>
         </div>    
