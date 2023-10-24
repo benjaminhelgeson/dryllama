@@ -13,6 +13,10 @@ export default function HomeScreen() {
           title="Dry Llama"
         ></TitleDisplay>
 
+        <div className="max-w-lg float-right md:block hidden">
+          <img src="https://dryllamaimages.s3.amazonaws.com/img/amsterdam/IMG_6036.jpg" />
+        </div>
+
         <div>
           <a href="/about">About Dry Llama</a>
         </div>
