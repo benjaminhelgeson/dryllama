@@ -1,0 +1,67 @@
+{
+	"..": {,
+		".": [
+			{
+				"href":"img/../.",
+				"src":"img/../.",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"..": [
+			{
+				"href":"img/../..",
+				"src":"img/../..",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"favicon.ico": [
+			{
+				"href":"img/../favicon.ico",
+				"src":"img/../favicon.ico",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"img": [
+			{
+				"href":"img/../img",
+				"src":"img/../img",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"index.html": [
+			{
+				"href":"img/../index.html",
+				"src":"img/../index.html",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"logo192.png": [
+			{
+				"href":"img/../logo192.png",
+				"src":"img/../logo192.png",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"logo512.png": [
+			{
+				"href":"img/../logo512.png",
+				"src":"img/../logo512.png",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"manifest.json": [
+			{
+				"href":"img/../manifest.json",
+				"src":"img/../manifest.json",
+				"alt":"xxxxxxxxx"
+			}
+		],
+		"robots.txt": [
+			{
+				"href":"img/../robots.txt",
+				"src":"img/../robots.txt",
+				"alt":"xxxxxxxxx"
+			}
+		]
+	}
+}

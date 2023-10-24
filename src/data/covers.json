@@ -1,164 +1,227 @@
 {
 	"covers": {
-		"IMG_1060.JPEG": [
-			{
-				"href":"img/covers/IMG_1060.JPEG",
-				"src":"img/covers/IMG_1060.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_1223.JPEG": [
-			{
-				"href":"img/covers/IMG_1223.JPEG",
-				"src":"img/covers/IMG_1223.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_1230.jpeg": [
-			{
-				"href":"img/covers/IMG_1230.jpeg",
-				"src":"img/covers/IMG_1230.jpeg",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_1335.JPEG": [
-			{
-				"href":"img/covers/IMG_1335.JPEG",
-				"src":"img/covers/IMG_1335.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_1340.JPEG": [
-			{
-				"href":"img/covers/IMG_1340.JPEG",
-				"src":"img/covers/IMG_1340.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_2105.JPEG": [
-			{
-				"href":"img/covers/IMG_2105.JPEG",
-				"src":"img/covers/IMG_2105.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3481.jpeg": [
-			{
-				"href":"img/covers/IMG_3481.jpeg",
-				"src":"img/covers/IMG_3481.jpeg",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3499.JPEG": [
-			{
-				"href":"img/covers/IMG_3499.JPEG",
-				"src":"img/covers/IMG_3499.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3512.jpeg": [
-			{
-				"href":"img/covers/IMG_3512.jpeg",
-				"src":"img/covers/IMG_3512.jpeg",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3577.JPEG": [
-			{
-				"href":"img/covers/IMG_3577.JPEG",
-				"src":"img/covers/IMG_3577.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3578.JPEG": [
-			{
-				"href":"img/covers/IMG_3578.JPEG",
-				"src":"img/covers/IMG_3578.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3592.JPEG": [
-			{
-				"href":"img/covers/IMG_3592.JPEG",
-				"src":"img/covers/IMG_3592.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3613.jpeg": [
-			{
-				"href":"img/covers/IMG_3613.jpeg",
-				"src":"img/covers/IMG_3613.jpeg",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3640.JPEG": [
-			{
-				"href":"img/covers/IMG_3640.JPEG",
-				"src":"img/covers/IMG_3640.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3674.JPEG": [
-			{
-				"href":"img/covers/IMG_3674.JPEG",
-				"src":"img/covers/IMG_3674.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3689.JPEG": [
-			{
-				"href":"img/covers/IMG_3689.JPEG",
-				"src":"img/covers/IMG_3689.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3729.JPEG": [
-			{
-				"href":"img/covers/IMG_3729.JPEG",
-				"src":"img/covers/IMG_3729.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3893.JPEG": [
-			{
-				"href":"img/covers/IMG_3893.JPEG",
-				"src":"img/covers/IMG_3893.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3907.jpeg": [
-			{
-				"href":"img/covers/IMG_3907.jpeg",
-				"src":"img/covers/IMG_3907.jpeg",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_3970.JPEG": [
-			{
-				"href":"img/covers/IMG_3970.JPEG",
-				"src":"img/covers/IMG_3970.JPEG",
-				"alt":"Street Covers"
-			}
-		],
-		"IMG_4688.jpeg": [
-			{
-				"href":"img/covers/IMG_4688.jpeg",
-				"src":"img/covers/IMG_4688.jpeg",
-				"alt":"Street Covers"
-			}
-		],
 		"27858364_1817132671631365_2399567187952808713_n.jpg": [
 			{
 				"href":"img/covers/27858364_1817132671631365_2399567187952808713_n.jpg",
 				"src":"img/covers/27858364_1817132671631365_2399567187952808713_n.jpg",
-				"alt":"Street Covers"
+				"alt":""
 			}
 		],
 		"29598110_1879190168758948_57247568245579915_n_1879190168758948.jpg": [
 			{
 				"href":"img/covers/29598110_1879190168758948_57247568245579915_n_1879190168758948.jpg",
 				"src":"img/covers/29598110_1879190168758948_57247568245579915_n_1879190168758948.jpg",
-				"alt":"Street Covers"
+				"alt":""
+			}
+		],
+		"IMG_1060.jpg": [
+			{
+				"href":"img/covers/IMG_1060.jpg",
+				"src":"img/covers/IMG_1060.jpg",
+				"alt":""
+			}
+		],
+		"IMG_1223.jpg": [
+			{
+				"href":"img/covers/IMG_1223.jpg",
+				"src":"img/covers/IMG_1223.jpg",
+				"alt":""
+			}
+		],
+		"IMG_1230.jpg": [
+			{
+				"href":"img/covers/IMG_1230.jpg",
+				"src":"img/covers/IMG_1230.jpg",
+				"alt":""
+			}
+		],
+		"IMG_1335.jpg": [
+			{
+				"href":"img/covers/IMG_1335.jpg",
+				"src":"img/covers/IMG_1335.jpg",
+				"alt":""
+			}
+		],
+		"IMG_1340.jpg": [
+			{
+				"href":"img/covers/IMG_1340.jpg",
+				"src":"img/covers/IMG_1340.jpg",
+				"alt":""
+			}
+		],
+		"IMG_2105.jpg": [
+			{
+				"href":"img/covers/IMG_2105.jpg",
+				"src":"img/covers/IMG_2105.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3481.jpg": [
+			{
+				"href":"img/covers/IMG_3481.jpg",
+				"src":"img/covers/IMG_3481.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3499.jpg": [
+			{
+				"href":"img/covers/IMG_3499.jpg",
+				"src":"img/covers/IMG_3499.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3512.jpg": [
+			{
+				"href":"img/covers/IMG_3512.jpg",
+				"src":"img/covers/IMG_3512.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3577.jpg": [
+			{
+				"href":"img/covers/IMG_3577.jpg",
+				"src":"img/covers/IMG_3577.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3578.jpg": [
+			{
+				"href":"img/covers/IMG_3578.jpg",
+				"src":"img/covers/IMG_3578.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3592.jpg": [
+			{
+				"href":"img/covers/IMG_3592.jpg",
+				"src":"img/covers/IMG_3592.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3613.jpg": [
+			{
+				"href":"img/covers/IMG_3613.jpg",
+				"src":"img/covers/IMG_3613.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3640.jpg": [
+			{
+				"href":"img/covers/IMG_3640.jpg",
+				"src":"img/covers/IMG_3640.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3674.jpg": [
+			{
+				"href":"img/covers/IMG_3674.jpg",
+				"src":"img/covers/IMG_3674.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3689.jpg": [
+			{
+				"href":"img/covers/IMG_3689.jpg",
+				"src":"img/covers/IMG_3689.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3729.jpg": [
+			{
+				"href":"img/covers/IMG_3729.jpg",
+				"src":"img/covers/IMG_3729.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3893.jpg": [
+			{
+				"href":"img/covers/IMG_3893.jpg",
+				"src":"img/covers/IMG_3893.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3907.jpg": [
+			{
+				"href":"img/covers/IMG_3907.jpg",
+				"src":"img/covers/IMG_3907.jpg",
+				"alt":""
+			}
+		],
+		"IMG_3970.jpg": [
+			{
+				"href":"img/covers/IMG_3970.jpg",
+				"src":"img/covers/IMG_3970.jpg",
+				"alt":""
+			}
+		],
+		"IMG_4688.jpg": [
+			{
+				"href":"img/covers/IMG_4688.jpg",
+				"src":"img/covers/IMG_4688.jpg",
+				"alt":""
+			}
+		],
+		"IMG_4953.jpg": [
+			{
+				"href":"img/covers/IMG_4953.jpg",
+				"src":"img/covers/IMG_4953.jpg",
+				"alt":""
+			}
+		],
+		"IMG_5288.jpg": [
+			{
+				"href":"img/covers/IMG_5288.jpg",
+				"src":"img/covers/IMG_5288.jpg",
+				"alt":""
+			}
+		],
+		"IMG_5303.jpg": [
+			{
+				"href":"img/covers/IMG_5303.jpg",
+				"src":"img/covers/IMG_5303.jpg",
+				"alt":""
+			}
+		],
+		"IMG_5304.jpg": [
+			{
+				"href":"img/covers/IMG_5304.jpg",
+				"src":"img/covers/IMG_5304.jpg",
+				"alt":""
+			}
+		],
+		"IMG_5622.jpg": [
+			{
+				"href":"img/covers/IMG_5622.jpg",
+				"src":"img/covers/IMG_5622.jpg",
+				"alt":""
+			}
+		],
+		"IMG_5752.jpg": [
+			{
+				"href":"img/covers/IMG_5752.jpg",
+				"src":"img/covers/IMG_5752.jpg",
+				"alt":""
+			}
+		],
+		"IMG_5929.jpg": [
+			{
+				"href":"img/covers/IMG_5929.jpg",
+				"src":"img/covers/IMG_5929.jpg",
+				"alt":""
+			}
+		],
+		"IMG_6042.jpg": [
+			{
+				"href":"img/covers/IMG_6042.jpg",
+				"src":"img/covers/IMG_6042.jpg",
+				"alt":""
+			}
+		],
+		"IMG_6133.jpg": [
+			{
+				"href":"img/covers/IMG_6133.jpg",
+				"src":"img/covers/IMG_6133.jpg",
+				"alt":""
 			}
 		]
 	}
