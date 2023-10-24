@@ -30,10 +30,12 @@ import GoldenGateCanyonScreen from "./pages/golden_gate_canyon";
 import GrandCanyonScreen from "./pages/grand_canyon";
 import HavanaScreen from "./pages/havana";
 import JoshuaTreeScreen from "./pages/joshua_tree";
+import KyotoScreen from "./pages/kyoto";
 import LaScreen from "./pages/la";
 import LasVegasScreen from "./pages/las_vegas";
 import LittleBigHornScreen from "./pages/little_big_horn";
 import LondonScreen from "./pages/london";
+import ManchesterScreen from "./pages/manchester";
 import MardiGrasScreen from "./pages/mardi_gras";
 import McKinneyFallsScreen from "./pages/mckinney_falls";
 import MiamiScreen from "./pages/miami";
@@ -57,6 +59,7 @@ import RushmoreScreen from "./pages/rushmore";
 import SalzburgScreen from "./pages/salzburg";
 import SantiagoScreen from "./pages/santiago";
 import SeattleScreen from "./pages/seattle";
+import TokyoScreen from "./pages/tokyo";
 import ViennaScreen from "./pages/vienna";
 import WestTexasScreen from "./pages/west_texas";
 import WhiteSandsScreen from "./pages/white_sands";
@@ -96,10 +99,12 @@ export default function App() {
         <Route path="grandcanyon" element={<GrandCanyonScreen />} />
         <Route path="havana" element={<HavanaScreen />} />
         <Route path="joshuatree" element={<JoshuaTreeScreen />} />
+        <Route path="kyoto" element={<KyotoScreen />} />
         <Route path="la" element={<LaScreen />} />
         <Route path="lasvegas" element={<LasVegasScreen />} />
         <Route path="littlebighorn" element={<LittleBigHornScreen />} />
         <Route path="london" element={<LondonScreen />} />
+        <Route path="manchester" element={<ManchesterScreen />} />
         <Route path="mardigras" element={<MardiGrasScreen />} />
         <Route path="miami" element={<MiamiScreen />} />
         <Route path="mckinneyfalls" element={<McKinneyFallsScreen />} />
@@ -123,6 +128,7 @@ export default function App() {
         <Route path="salzburg" element={<SalzburgScreen />} />
         <Route path="santiago" element={<SantiagoScreen />} />
         <Route path="seattle" element={<SeattleScreen />} />
+        <Route path="tokyo" element={<TokyoScreen />} />
         <Route path="vienna" element={<ViennaScreen />} />
         <Route path="westtexas" element={<WestTexasScreen />} />
         <Route path="whitesands" element={<WhiteSandsScreen />} />

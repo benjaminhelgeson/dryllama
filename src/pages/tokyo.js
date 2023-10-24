@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import LightGallery from 'lightgallery/react';
-import myData from '../data/joshua_tree.json';
+import myData from '../data/tokyo.json';
 import _ from 'lodash';
 
 // import styles
@@ -17,7 +17,7 @@ import { ImageDisplay } from '../componets/imageDisplay';
 import { TitleDisplay } from '../componets/titleDisplay';
 import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
-export default function JoshuaTreeScreen() {
+export default function TokyoScreen() {
 	return (		
 	  <div className="px-10 mt-2 bg-black text-white">
 	    <TitleDisplay goTo="/"
@@ -25,7 +25,7 @@ export default function JoshuaTreeScreen() {
 	    ></TitleDisplay>
 	    
 	    <SubtitleDisplay
-	      title="Joshua Tree National Park"
+	      title="Tokyo, Japan"
 	    ></SubtitleDisplay>
 
 	    <LightGallery
@@ -36,7 +36,7 @@ export default function JoshuaTreeScreen() {
 	      download={false}
 	      getCaptionFromTitleOrAlt={true}
 	    > 
-			{_.map(myData?.joshua_tree, data => {
+			{_.map(myData?.tokyo, data => {
 				return(
 					<ImageDisplay 
 			    		href={data[0].href} 
