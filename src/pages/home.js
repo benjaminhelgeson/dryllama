@@ -165,11 +165,17 @@ export default function HomeScreen() {
           <a href="/havana">Havana, Cuba</a>
         </div> 
         <div>
+          <a href="/kyoto">Kyoto, Japan</a>
+        </div>
+        <div>
           <a href="/london">London, England</a>
-        </div>   
+        </div>
+        <div>
+          <a href="/manchester">Manchester, England</a>
+        </div>
         <div>
           <a href="/munich">Munich, Germany</a>
-        </div>    
+        </div>
         <div>
           <a href="/paris">Paris, France</a>
         </div>     
@@ -193,6 +199,9 @@ export default function HomeScreen() {
         </div>    
         <div>
           <a href="/santiago">Santiago, Chile</a>
+        </div>   
+        <div>
+          <a href="/tokyo">Tokyo, Japan</a>
         </div>   
         <div>
           <a href="/vienna">Vienna, Austria</a>

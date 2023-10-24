@@ -1,19 +1,5 @@
 {
 	"manchester": {
-		"IMG_5755.jpg": [
-			{
-				"href":"img/manchester/IMG_5755.jpg",
-				"src":"img/manchester/IMG_5755.jpg",
-				"alt":""
-			}
-		],
-		"IMG_5756.jpg": [
-			{
-				"href":"img/manchester/IMG_5756.jpg",
-				"src":"img/manchester/IMG_5756.jpg",
-				"alt":""
-			}
-		],
 		"IMG_5757.jpg": [
 			{
 				"href":"img/manchester/IMG_5757.jpg",
@@ -154,13 +140,6 @@
 				"alt":""
 			}
 		],
-		"IMG_5780.jpg": [
-			{
-				"href":"img/manchester/IMG_5780.jpg",
-				"src":"img/manchester/IMG_5780.jpg",
-				"alt":""
-			}
-		],
 		"IMG_5781.jpg": [
 			{
 				"href":"img/manchester/IMG_5781.jpg",
@@ -207,13 +186,6 @@
 			{
 				"href":"img/manchester/IMG_5787.jpg",
 				"src":"img/manchester/IMG_5787.jpg",
-				"alt":""
-			}
-		],
-		"IMG_5788.jpg": [
-			{
-				"href":"img/manchester/IMG_5788.jpg",
-				"src":"img/manchester/IMG_5788.jpg",
 				"alt":""
 			}
 		],
