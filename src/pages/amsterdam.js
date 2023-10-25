@@ -18,7 +18,7 @@ import { TitleDisplay } from '../componets/titleDisplay';
 import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
 export default function AmsterdamScreen() {
-	return (		
+	return (
 	  <div className="px-10 mt-2 bg-black text-white">
 	    <TitleDisplay goTo="/"
 	      title="Dry Llama"
