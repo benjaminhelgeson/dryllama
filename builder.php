@@ -1,10 +1,21 @@
 <?php
 
+
+/*
+ * To run this code:
+ * cmd prompt - php builder.php
+ */
+
 $imgDir = opendir("./public/img");
 $dataDir = opendir("./src/data");
 $written = false;
 
 while (($file = readdir($imgDir)) !== false) {
+	// skip . and ..
+	if ($file == "." || $file == "..") {
+		continue;
+	}
+
     echo "filename: $file \n";
 	echo "/src/data/" . $file .  ".json\n";
 
@@ -13,11 +24,16 @@ while (($file = readdir($imgDir)) !== false) {
     	$newFile = fopen("./src/data/" . $file . ".json", "w");
 
     	fwrite($newFile, "{\n");
-    	fwrite($newFile, "\t\"" . $file . "\": {");
+    	fwrite($newFile, "\t\"" . $file . "\": {\n");
 
     	$newDir = opendir("./public/img/" . $file);
 
     	while (($img = readdir($newDir)) !== false) {
+			// skip . and ..
+			if ($img == "." || $img == "..") {
+				continue;
+			}
+
     		if ($newFile != "." AND $newFile != "..") {
     			if ($written) {
 					fwrite($newFile, ",\n");
@@ -37,7 +53,7 @@ while (($file = readdir($imgDir)) !== false) {
 
     	fwrite($newFile, "\n\t}\n}");
     	fclose($newFile);
-    } 
+    }
 }
 closedir($imgDir);
 closedir($dataDir);

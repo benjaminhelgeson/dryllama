@@ -1,5 +1,5 @@
 
-const SubtitleDisplay = ({ 
+const SubtitleDisplay = ({
 	title="",
 	...rest
 }) => {

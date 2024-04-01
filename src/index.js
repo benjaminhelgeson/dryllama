@@ -9,6 +9,7 @@ import AustinScreen from "./pages/austin";
 import BarcelonaScreen from "./pages/barcelona";
 import BanosScreen from "./pages/banos";
 import BayAreaScreen from "./pages/bay_area";
+import BelfastScreen from "./pages/belfast";
 import BerlinScreen from "./pages/berlin";
 import BigBendScreen from "./pages/big_bend";
 import BogotaScreen from "./pages/bogota";
@@ -18,23 +19,28 @@ import BrugesScreen from "./pages/bruges";
 import CadillacRanchScreen from "./pages/cadillac_ranch";
 import CaliforniaScreen from "./pages/california";
 import ChicagoScreen from "./pages/chicago";
+import CliffsOfMoherScreen from "./pages/cliffs_of_moher";
 import CoversScreen from "./pages/covers";
 import DallasScreen from "./pages/dallas";
 import DeathValleyNpScreen from "./pages/death_valley_np";
 import DinosaurScreen from "./pages/dinosaur";
+import DublinScreen from "./pages/dublin";
 import FussenScreen from "./pages/fussen";
 import GalapagosScreen from "./pages/galapagos";
+import GiantsCausewayScreen from "./pages/giants_causeway";
 import GoldenScreen from "./pages/golden";
 import GoldenCircleScreen from "./pages/golden_circle";
 import GoldenGateCanyonScreen from "./pages/golden_gate_canyon";
 import GrandCanyonScreen from "./pages/grand_canyon";
 import HavanaScreen from "./pages/havana";
+import IrishCoastScreen from "./pages/irish_coast";
 import JoshuaTreeScreen from "./pages/joshua_tree";
 import KyotoScreen from "./pages/kyoto";
 import LaScreen from "./pages/la";
 import LasVegasScreen from "./pages/las_vegas";
 import LittleBigHornScreen from "./pages/little_big_horn";
 import LondonScreen from "./pages/london";
+import MadridScreen from "./pages/madrid";
 import ManchesterScreen from "./pages/manchester";
 import MardiGrasScreen from "./pages/mardi_gras";
 import McKinneyFallsScreen from "./pages/mckinney_falls";
@@ -55,10 +61,13 @@ import RegensburgScreen from "./pages/regensburg";
 import ReykjavikScreen from "./pages/reykjavik";
 import RmnpScreen from "./pages/rmnp";
 import RockyPointScreen from "./pages/rocky_point";
+import RondaScreen from "./pages/ronda";
 import RushmoreScreen from "./pages/rushmore";
 import SalzburgScreen from "./pages/salzburg";
 import SantiagoScreen from "./pages/santiago";
 import SeattleScreen from "./pages/seattle";
+import SevillaScreen from "./pages/sevilla";
+import SpanishCountrysideScreen from "./pages/spanish_countryside";
 import TokyoScreen from "./pages/tokyo";
 import ViennaScreen from "./pages/vienna";
 import WestTexasScreen from "./pages/west_texas";
@@ -79,31 +88,37 @@ export default function App() {
         <Route path="banos" element={<BanosScreen />} />
         <Route path="barcelona" element={<BarcelonaScreen />} />
         <Route path="bayarea" element={<BayAreaScreen />} />
-        <Route path="berlin" element={<BerlinScreen />} />       
+        <Route path="belfast" element={<BelfastScreen />} />
+        <Route path="berlin" element={<BerlinScreen />} />
         <Route path="bigbend" element={<BigBendScreen />} />
-        <Route path="bogota" element={<BogotaScreen />} /> 
-        <Route path="bolivar" element={<BolivarScreen />} /> 
+        <Route path="bogota" element={<BogotaScreen />} />
+        <Route path="bolivar" element={<BolivarScreen />} />
         <Route path="bratislava" element={<BratislavaScreen />} />
         <Route path="bruges" element={<BrugesScreen />} />
         <Route path="cadillacranch" element={<CadillacRanchScreen />} />
         <Route path="chicago" element={<ChicagoScreen />} />
+        <Route path="cliffsofmoher" element={<CliffsOfMoherScreen />} />
         <Route path="covers" element={<CoversScreen />} />
         <Route path="dallas" element={<DallasScreen />} />
         <Route path="deathvalley" element={<DeathValleyNpScreen />} />
         <Route path="dinosaur" element={<DinosaurScreen />} />
+        <Route path="dublin" element={<DublinScreen />} />
         <Route path="fussen" element={<FussenScreen />} />
         <Route path="galapagos" element={<GalapagosScreen />} />
+        <Route path="giantscauseway" element={<GiantsCausewayScreen />} />
         <Route path="golden" element={<GoldenScreen />} />
         <Route path="goldencircle" element={<GoldenCircleScreen />} />
         <Route path="goldengatecanyon" element={<GoldenGateCanyonScreen />} />
         <Route path="grandcanyon" element={<GrandCanyonScreen />} />
         <Route path="havana" element={<HavanaScreen />} />
+        <Route path="irishcoast" element={<IrishCoastScreen />} />
         <Route path="joshuatree" element={<JoshuaTreeScreen />} />
         <Route path="kyoto" element={<KyotoScreen />} />
         <Route path="la" element={<LaScreen />} />
         <Route path="lasvegas" element={<LasVegasScreen />} />
         <Route path="littlebighorn" element={<LittleBigHornScreen />} />
         <Route path="london" element={<LondonScreen />} />
+        <Route path="madrid" element={<MadridScreen />} />
         <Route path="manchester" element={<ManchesterScreen />} />
         <Route path="mardigras" element={<MardiGrasScreen />} />
         <Route path="miami" element={<MiamiScreen />} />
@@ -124,10 +139,13 @@ export default function App() {
         <Route path="reykjavik" element={<ReykjavikScreen />} />
         <Route path="rmnp" element={<RmnpScreen />} />
         <Route path="rockypoint" element={<RockyPointScreen />} />
+        <Route path="ronda" element={<RondaScreen />} />
         <Route path="rushmore" element={<RushmoreScreen />} />
         <Route path="salzburg" element={<SalzburgScreen />} />
         <Route path="santiago" element={<SantiagoScreen />} />
         <Route path="seattle" element={<SeattleScreen />} />
+        <Route path="sevilla" element={<SevillaScreen />} />
+        <Route path="spanishcountryside" element={<SpanishCountrysideScreen />} />
         <Route path="tokyo" element={<TokyoScreen />} />
         <Route path="vienna" element={<ViennaScreen />} />
         <Route path="westtexas" element={<WestTexasScreen />} />

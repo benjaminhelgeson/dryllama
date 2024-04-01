@@ -1,5 +1,5 @@
-	
-const ImageDisplay = ({ 
+
+const ImageDisplay = ({
 	alt="",
 	src="",
 	className='inline-block h-48 p-1',
@@ -13,7 +13,7 @@ const ImageDisplay = ({
 		<>
 	      <a href={hrefSrc}>
 	        <img alt={alt} src={awsSrc} className={className} />
-		  </a>		    	
+		  </a>
 		</>
 	);
 }

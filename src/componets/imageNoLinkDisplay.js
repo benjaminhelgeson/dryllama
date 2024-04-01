@@ -1,5 +1,5 @@
-	
-const ImageNoLinkDisplay = ({ 
+
+const ImageNoLinkDisplay = ({
 	alt="",
 	src="",
 	className='inline-block p-1',

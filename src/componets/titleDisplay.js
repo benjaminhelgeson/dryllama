@@ -1,5 +1,5 @@
 
-const TitleDisplay = ({ 
+const TitleDisplay = ({
 	title="",
 	goTo=false,
 	...rest
