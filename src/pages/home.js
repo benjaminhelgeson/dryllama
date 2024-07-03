@@ -32,7 +32,13 @@ export default function HomeScreen() {
           title="National Parks System"
         ></SubtitleDisplay>
         <div>
+          <a href="/arches">Arches National Park</a>
+        </div>
+        <div>
           <a href="/bigbend">Big Bend National Park</a>
+        </div>
+        <div>
+          <a href="/canyonlands">Canyonlands National Park</a>
         </div>
         <div>
           <a href="/deathvalley">Death Valley National Park</a>

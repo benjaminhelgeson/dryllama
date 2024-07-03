@@ -5,6 +5,7 @@ import HomeScreen from "./pages/home";
 import AboutScreen from "./pages/about";
 import AmsterdamScreen from "./pages/amsterdam";
 import AnchorageScreen from "./pages/anchorage";
+import ArchesScreen from "./pages/arches";
 import AustinScreen from "./pages/austin";
 import BarcelonaScreen from "./pages/barcelona";
 import BanosScreen from "./pages/banos";
@@ -18,6 +19,7 @@ import BratislavaScreen from "./pages/bratislava";
 import BrugesScreen from "./pages/bruges";
 import CadillacRanchScreen from "./pages/cadillac_ranch";
 import CaliforniaScreen from "./pages/california";
+import CanyonlandsScreen from "./pages/canyonlands";
 import ChicagoScreen from "./pages/chicago";
 import CliffsOfMoherScreen from "./pages/cliffs_of_moher";
 import CoversScreen from "./pages/covers";
@@ -84,6 +86,7 @@ export default function App() {
         <Route path="about" element={<AboutScreen />} />
         <Route path="amsterdam" element={<AmsterdamScreen />} />
         <Route path="anchorage" element={<AnchorageScreen />} />
+        <Route path="arches" element={<ArchesScreen />} />
         <Route path="austin" element={<AustinScreen />} />
         <Route path="banos" element={<BanosScreen />} />
         <Route path="barcelona" element={<BarcelonaScreen />} />
@@ -96,6 +99,7 @@ export default function App() {
         <Route path="bratislava" element={<BratislavaScreen />} />
         <Route path="bruges" element={<BrugesScreen />} />
         <Route path="cadillacranch" element={<CadillacRanchScreen />} />
+        <Route path="canyonlands" element={<CanyonlandsScreen />} />
         <Route path="chicago" element={<ChicagoScreen />} />
         <Route path="cliffsofmoher" element={<CliffsOfMoherScreen />} />
         <Route path="covers" element={<CoversScreen />} />
