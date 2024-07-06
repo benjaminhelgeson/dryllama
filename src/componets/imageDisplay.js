@@ -12,7 +12,7 @@ const ImageDisplay = ({
 	return (
 		<>
 	      <a href={hrefSrc}>
-	        <img alt={alt} src={awsSrc} className={className} />
+	        <img alt={alt} loading="lazy" src={awsSrc} className={className} />
 		  </a>
 		</>
 	);
