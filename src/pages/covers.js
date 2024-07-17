@@ -17,12 +17,12 @@ import { TitleDisplay } from '../componets/titleDisplay';
 import { SubtitleDisplay } from '../componets/subtitleDisplay';
 
 export default function CoversScreen() {
-	return (		
+	return (
 	  <div className="px-10 mt-2 bg-black text-white">
 	    <TitleDisplay goTo="/"
 	      title="Dry Llama"
 	    ></TitleDisplay>
-	    
+
 	    <SubtitleDisplay
 	      title="Street Covers"
 	    ></SubtitleDisplay>
@@ -34,11 +34,11 @@ export default function CoversScreen() {
 	      counter={true}
 	      download={false}
 	      getCaptionFromTitleOrAlt={true}
-	    > 
+	    >
 			{_.map(myData?.covers, data => {
 				return(
-					<ImageDisplay 
-			    		href={data[0].href} 
+					<ImageDisplay
+			    		href={data[0].href}
 			    		src={data[0].src}
 			    		alt={data[0].alt}
 					></ImageDisplay>
@@ -47,4 +47,4 @@ export default function CoversScreen() {
 	    </LightGallery>
 	  </div>
 	);
-} 
+}
