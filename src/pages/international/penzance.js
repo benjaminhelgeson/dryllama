@@ -1,6 +1,6 @@
 import "../../App.css";
 import LightGallery from "lightgallery/react";
-import myData from "../../data/parks/big_bend.json";
+import myData from "../../data/international/penzance.json";
 import _ from "lodash";
 
 // import styles
@@ -15,12 +15,12 @@ import { ImageDisplay } from "../../componets/imageDisplay";
 import { TitleDisplay } from "../../componets/titleDisplay";
 import { SubtitleDisplay } from "../../componets/subtitleDisplay";
 
-export default function BigBendScreen() {
+export default function PenzanceScreen() {
   return (
     <div className="px-10 mt-2 bg-black text-white">
       <TitleDisplay goTo="/" title="Dry Llama"></TitleDisplay>
 
-      <SubtitleDisplay title="Big Bend National Park"></SubtitleDisplay>
+      <SubtitleDisplay title="Penzance, England"></SubtitleDisplay>
 
       <LightGallery
         speed={500}
@@ -30,7 +30,7 @@ export default function BigBendScreen() {
         download={false}
         getCaptionFromTitleOrAlt={true}
       >
-        {_.map(myData?.big_bend, (data) => {
+        {_.map(myData?.penzance, (data) => {
           return (
             <ImageDisplay
               href={data[0].href}

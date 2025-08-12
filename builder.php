@@ -12,8 +12,8 @@ $written = false;
 
 while (($file = readdir($imgDir)) !== false) {
 	// skip . and ..
-	if ($file == "." || $file == "..") {
-		continue;
+	if ($file[0] === '.') {
+    	continue;
 	}
 
     echo "filename: $file \n";
@@ -53,7 +53,40 @@ while (($file = readdir($imgDir)) !== false) {
 
     	fwrite($newFile, "\n\t}\n}");
     	fclose($newFile);
-    }
+    } else {
+    	$newFile = fopen("./src/data/" . $file . "2.json", "w");
+
+    	fwrite($newFile, "{\n");
+    	fwrite($newFile, "\t\"" . $file . "\": {\n");
+
+    	$newDir = opendir("./public/img/" . $file);
+
+    	while (($img = readdir($newDir)) !== false) {
+			// skip . and ..
+			if ($img == "." || $img == "..") {
+				continue;
+			}
+
+    		if ($newFile != "." AND $newFile != "..") {
+    			if ($written) {
+					fwrite($newFile, ",\n");
+    			} else {
+    				$written = true;
+				}
+
+				fwrite($newFile, "\t\t\"" . $img . "\": [\n");
+				fwrite($newFile, "\t\t\t{\n");
+				fwrite($newFile, "\t\t\t\t\"href\":\"img/" . $file . "/" . $img ."\",\n");
+				fwrite($newFile, "\t\t\t\t\"src\":\"img/" . $file . "/" . $img ."\",\n");
+				fwrite($newFile, "\t\t\t\t\"alt\":\"xxxxxxxxx\"\n");
+				fwrite($newFile, "\t\t\t}\n");
+				fwrite($newFile, "\t\t]");
+			}
+    	}
+
+    	fwrite($newFile, "\n\t}\n}");
+    	fclose($newFile);
+	}
 }
 closedir($imgDir);
 closedir($dataDir);
